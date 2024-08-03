@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmeTV Clone</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f2f2f2; }
+        video { width: 45%; margin: 10px; }
+        #videos { display: flex; justify-content: center; flex-wrap: wrap; }
+    </style>
+</head>
+<body>
+    <h1>OmeTV Clone</h1>
+    <div id="videos">
+        <video id="myVideo" autoplay muted></video>
+        <video id="peerVideo" autoplay></video>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://unpkg.com/simple-peer@latest/simplepeer.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
