@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Admin Panel</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Back to Store</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Manage Products</h2>
+        <form id="productForm">
+            <label for="productName">Product Name:</label>
+            <input type="text" id="productName" name="productName" required>
+
+            <label for="productPrice">Price:</label>
+            <input type="number" id="productPrice" name="productPrice" required>
+
+            <label for="productDescription">Description:</label>
+            <textarea id="productDescription" name="productDescription" required></textarea>
+
+            <button type="submit">Add Product</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your E-Commerce Store</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
